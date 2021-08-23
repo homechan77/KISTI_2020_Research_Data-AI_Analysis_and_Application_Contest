@@ -1,0 +1,2444 @@
+Tue Nov 17 15:18:11 KST 2020
+MaxEnt version 3.4.1
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\AGCLS.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\DMCLS.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\Drainage_degree.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\FIFTH_FRTP.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\LV2_CODE.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\corrosion_degree.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\dem.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\landform.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\lithoidx.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\prec_aver.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\slope.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\soil_depth.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\soil_structure.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\soil_type.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\temper_aver.asc
+Reading samples from Taxus.csv
+Read samples: max memory 477626368, total allocated 124780544, free 67690512, used 57090032, increment 57090032
+Converting file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\prec_aver.asc size 39001477, max memory = 477626368
+Reading file prec_aver.asc
+FLOAT, 2346060 pixels with data
+readGrid: max memory 477626368, total allocated 252182528, free 210146712, used 42035816, increment -15054216
+Writing file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\maxent.cache\prec_aver.mxe
+Time since start: 1.146
+Converting file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\temper_aver.asc size 48723208, max memory = 477626368
+Reading file temper_aver.asc
+FLOAT, 2346060 pixels with data
+readGrid: max memory 477626368, total allocated 253755392, free 178105000, used 75650392, increment 33614576
+Writing file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합\maxent.cache\temper_aver.mxe
+Time since start: 2.194
+Extractor: max memory 477626368, total allocated 253755392, free 177532408, used 76222984, increment 572592
+Extracting random background and sample data
+Time since start: 3.196
+2335736 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17) "samplesfile=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\생물종 위치\Taxus.csv" environmentallayers=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합 -t AGCLS -t DMCLS -t Drainage_degree -t FIFTH_FRTP -t LV2_CODE -t corrosion_degree -t landform -t lithoidx -t soil_depth -t soil_structure -t soil_type
+Species: Taxus
+Layers: AGCLS DMCLS Drainage_degree FIFTH_FRTP LV2_CODE corrosion_degree dem landform lithoidx prec_aver slope soil_depth soil_structure soil_type temper_aver
+Layertypes: Categorical Categorical Categorical Categorical Categorical Categorical Continuous Categorical Categorical Continuous Continuous Categorical Categorical Categorical Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17)
+samplesfile: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\생물종 위치\Taxus.csv
+environmentallayers: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합
+
+getSamples: max memory 477626368, total allocated 253755392, free 167718464, used 86036928, increment 9813944
+Making features
+makeFeatures: max memory 477626368, total allocated 253755392, free 161306248, used 92449144, increment 6412216
+Taxus: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 253755392, free 154963488, used 98791904, increment 6342760
+linearPredictor: max memory 477626368, total allocated 253755392, free 154963488, used 98791904, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 253755392, free 154963488, used 98791904, increment 0
+Sequential: max memory 477626368, total allocated 253755392, free 154963488, used 98791904, increment 0
+Initial loss: 9.215029361462314
+Time since start: 8.802
+500: time = 5.352000 loss = 7.923586
+Resulting gain: 1.2914436545270238
+Projecting...
+Writing file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17)\Taxus.asc
+Time since start: 15.861
+Writing C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17)\plots\Taxus.png
+Time since start: 18.422
+Taxus response curves
+Response curve: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 35249992, used 160309432, increment 61517528
+Taxus AGCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 195559424, free 35230496, used 160328928, increment 19496
+linearPredictor: max memory 477626368, total allocated 195559424, free 35230496, used 160328928, increment 0
+Deactivating (AGCLS=3.0)
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 35230496, used 160328928, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 35230496, used 160328928, increment 0
+Initial loss: 9.215029361462314
+200: time = 0.245000 loss = 9.097674
+Resulting gain: 0.11735502367977624
+Taxus response curves
+Time since start: 19.442
+Response curve: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 30546208, used 165013216, increment 4684288
+Taxus DMCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 195559424, free 30531192, used 165028232, increment 15016
+linearPredictor: max memory 477626368, total allocated 195559424, free 30450800, used 165108624, increment 80392
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 30446416, used 165113008, increment 4384
+Sequential: max memory 477626368, total allocated 195559424, free 30446416, used 165113008, increment 0
+Initial loss: 9.215029361462314
+60: time = 0.062000 loss = 9.077725
+Resulting gain: 0.13730465241356704
+Taxus response curves
+Response curve: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 25794648, used 169764776, increment 4651768
+Taxus Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 195559424, free 25786352, used 169773072, increment 8296
+linearPredictor: max memory 477626368, total allocated 195559424, free 25782160, used 169777264, increment 4192
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 25782160, used 169777264, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 25782160, used 169777264, increment 0
+Initial loss: 9.215029361462314
+120: time = 0.138000 loss = 9.096774
+Resulting gain: 0.11825567007801219
+Taxus response curves
+Response curve: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 191365120, free 119396032, used 71969088, increment -97808176
+Taxus FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 191365120, free 119396032, used 71969088, increment 0
+linearPredictor: max memory 477626368, total allocated 191365120, free 119396032, used 71969088, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+FeaturedSpace: max memory 477626368, total allocated 191365120, free 119396032, used 71969088, increment 0
+Sequential: max memory 477626368, total allocated 191365120, free 119396032, used 71969088, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.168000 loss = 9.093875
+Resulting gain: 0.12115425860947404
+Taxus response curves
+Response curve: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 191365120, free 114274424, used 77090696, increment 5121608
+Taxus LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 191365120, free 114253576, used 77111544, increment 20848
+linearPredictor: max memory 477626368, total allocated 191365120, free 112140192, used 79224928, increment 2113384
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+FeaturedSpace: max memory 477626368, total allocated 191365120, free 112140192, used 79224928, increment 0
+Sequential: max memory 477626368, total allocated 191365120, free 112140192, used 79224928, increment 0
+Initial loss: 9.215029361462314
+160: time = 0.221000 loss = 9.118734
+Resulting gain: 0.09629540620539778
+Taxus response curves
+Response curve: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 191365120, free 106780560, used 84584560, increment 5359632
+Taxus corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 191365120, free 106780560, used 84584560, increment 0
+linearPredictor: max memory 477626368, total allocated 191365120, free 106780560, used 84584560, increment 0
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 191365120, free 106759704, used 84605416, increment 20856
+Sequential: max memory 477626368, total allocated 191365120, free 106759704, used 84605416, increment 0
+Initial loss: 9.215029361462314
+100: time = 0.131000 loss = 9.211533
+Resulting gain: 0.003496778426677949
+Taxus response curves
+Time since start: 20.473
+Response curve: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 191365120, free 101821568, used 89543552, increment 4938136
+Taxus dem: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 191365120, free 99708200, used 91656920, increment 2113368
+linearPredictor: max memory 477626368, total allocated 191365120, free 99708200, used 91656920, increment 0
+FeaturedSpace: max memory 477626368, total allocated 191365120, free 99708200, used 91656920, increment 0
+Sequential: max memory 477626368, total allocated 191365120, free 99708200, used 91656920, increment 0
+Initial loss: 9.215029361462314
+Time since start: 23.138
+480: time = 2.631000 loss = 8.815878
+Resulting gain: 0.3991512808602913
+Taxus response curves
+Response curve: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 156237824, free 35161544, used 121076280, increment 29419360
+Taxus landform: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 156237824, free 35145680, used 121092144, increment 15864
+linearPredictor: max memory 477626368, total allocated 156237824, free 35145680, used 121092144, increment 0
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+FeaturedSpace: max memory 477626368, total allocated 156237824, free 35141840, used 121095984, increment 3840
+Sequential: max memory 477626368, total allocated 156237824, free 35141840, used 121095984, increment 0
+Initial loss: 9.215029361462314
+120: time = 0.128000 loss = 9.088839
+Resulting gain: 0.12618989778610867
+Taxus response curves
+Response curve: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 156237824, free 30122512, used 126115312, increment 5019328
+Taxus lithoidx: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 156237824, free 30030144, used 126207680, increment 92368
+linearPredictor: max memory 477626368, total allocated 156237824, free 29949752, used 126288072, increment 80392
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 156237824, free 29949752, used 126288072, increment 0
+Sequential: max memory 477626368, total allocated 156237824, free 29949752, used 126288072, increment 0
+Initial loss: 9.215029361462314
+240: time = 0.358000 loss = 8.877995
+Resulting gain: 0.33703421146304713
+Taxus response curves
+Response curve: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 156237824, free 23001296, used 133236528, increment 6948456
+Taxus prec_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 156237824, free 21575976, used 134661848, increment 1425320
+linearPredictor: max memory 477626368, total allocated 156237824, free 21575976, used 134661848, increment 0
+FeaturedSpace: max memory 477626368, total allocated 156237824, free 21575976, used 134661848, increment 0
+Sequential: max memory 477626368, total allocated 156237824, free 21575976, used 134661848, increment 0
+Initial loss: 9.215029361462314
+Time since start: 24.187
+200: time = 0.371000 loss = 8.759812
+Resulting gain: 0.455217489982056
+Taxus response curves
+Response curve: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 155189248, free 69086136, used 86103112, increment -48558736
+Taxus slope: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 155189248, free 66408440, used 88780808, increment 2677696
+linearPredictor: max memory 477626368, total allocated 155189248, free 66408440, used 88780808, increment 0
+FeaturedSpace: max memory 477626368, total allocated 155189248, free 66408440, used 88780808, increment 0
+Sequential: max memory 477626368, total allocated 155189248, free 66408440, used 88780808, increment 0
+Initial loss: 9.215029361462314
+Time since start: 25.776
+260: time = 1.498000 loss = 9.015667
+Resulting gain: 0.19936250929645283
+Taxus response curves
+Response curve: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 138412032, free 59473944, used 78938088, increment -9842720
+Taxus soil_depth: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 138412032, free 59461456, used 78950576, increment 12488
+linearPredictor: max memory 477626368, total allocated 138412032, free 59461456, used 78950576, increment 0
+Deactivating (soil_depth=999.0)
+FeaturedSpace: max memory 477626368, total allocated 138412032, free 59461456, used 78950576, increment 0
+Sequential: max memory 477626368, total allocated 138412032, free 59461456, used 78950576, increment 0
+Initial loss: 9.215029361462314
+80: time = 0.078000 loss = 9.086185
+Resulting gain: 0.12884476973241554
+Taxus response curves
+Response curve: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 138412032, free 55021816, used 83390216, increment 4439640
+Taxus soil_structure: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 138412032, free 55009216, used 83402816, increment 12600
+linearPredictor: max memory 477626368, total allocated 138412032, free 55009216, used 83402816, increment 0
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 138412032, free 55009216, used 83402816, increment 0
+Sequential: max memory 477626368, total allocated 138412032, free 55009216, used 83402816, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.150000 loss = 9.097619
+Resulting gain: 0.11741017204908566
+Taxus response curves
+Response curve: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 138412032, free 49016128, used 89395904, increment 5993088
+Taxus soil_type: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 138412032, free 49003480, used 89408552, increment 12648
+linearPredictor: max memory 477626368, total allocated 138412032, free 49003480, used 89408552, increment 0
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 138412032, free 49003480, used 89408552, increment 0
+Sequential: max memory 477626368, total allocated 138412032, free 49003480, used 89408552, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.151000 loss = 9.080200
+Resulting gain: 0.13482890349297527
+Taxus response curves
+Response curve: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 138412032, free 44065256, used 94346776, increment 4938224
+Taxus temper_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 138412032, free 42939040, used 95472992, increment 1126216
+linearPredictor: max memory 477626368, total allocated 138412032, free 42939040, used 95472992, increment 0
+FeaturedSpace: max memory 477626368, total allocated 138412032, free 42939040, used 95472992, increment 0
+Sequential: max memory 477626368, total allocated 138412032, free 42939040, used 95472992, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.336000 loss = 8.836585
+Resulting gain: 0.3784446978301901
+Taxus response curves
+Time since start: 27.489
+Jackknife: leave AGCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 137363456, free 12751592, used 124611864, increment 29138872
+Taxus AGCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 135266304, free 54394688, used 80871616, increment -43740248
+linearPredictor: max memory 477626368, total allocated 135266304, free 54394688, used 80871616, increment 0
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 135266304, free 54394688, used 80871616, increment 0
+Sequential: max memory 477626368, total allocated 135266304, free 53473256, used 81793048, increment 921432
+Initial loss: 9.215029361462314
+Time since start: 32.706
+500: time = 5.135000 loss = 7.938143
+Jackknife: leave DMCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 136839168, free 13194800, used 123644368, increment 41851320
+Taxus DMCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 136839168, free 8314024, used 128525144, increment 4880776
+linearPredictor: max memory 477626368, total allocated 136839168, free 8314024, used 128525144, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 136839168, free 8314024, used 128525144, increment 0
+Sequential: max memory 477626368, total allocated 136839168, free 8314024, used 128525144, increment 0
+Initial loss: 9.215029361462314
+Time since start: 37.961
+500: time = 5.188000 loss = 7.936858
+Jackknife: leave Drainage_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 123207680, free 6959728, used 116247952, increment -12277192
+Taxus Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 92798976, free 66889472, used 25909504, increment -90338448
+linearPredictor: max memory 477626368, total allocated 92798976, free 66889472, used 25909504, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 92798976, free 66889472, used 25909504, increment 0
+Sequential: max memory 477626368, total allocated 92798976, free 66889472, used 25909504, increment 0
+Initial loss: 9.215029361462314
+Time since start: 43.169
+500: time = 5.099000 loss = 7.957290
+Jackknife: leave FIFTH_FRTP out
+Making features
+makeFeatures: max memory 477626368, total allocated 95944704, free 62384648, used 33560056, increment 7650552
+Taxus FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 95944704, free 57544200, used 38400504, increment 4840448
+linearPredictor: max memory 477626368, total allocated 95944704, free 57463808, used 38480896, increment 80392
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 95944704, free 56699800, used 39244904, increment 764008
+Sequential: max memory 477626368, total allocated 95944704, free 56699800, used 39244904, increment 0
+Initial loss: 9.215029361462314
+Time since start: 48.324
+500: time = 5.092000 loss = 7.956738
+Jackknife: leave LV2_CODE out
+Making features
+makeFeatures: max memory 477626368, total allocated 105906176, free 60291040, used 45615136, increment 6370232
+Taxus LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 105906176, free 55063680, used 50842496, increment 5227360
+linearPredictor: max memory 477626368, total allocated 105906176, free 55063680, used 50842496, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 105906176, free 55063680, used 50842496, increment 0
+Sequential: max memory 477626368, total allocated 105906176, free 55063680, used 50842496, increment 0
+Initial loss: 9.215029361462314
+Time since start: 53.544
+500: time = 5.151000 loss = 7.978462
+Jackknife: leave corrosion_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 94371840, free 47726632, used 46645208, increment -4197288
+Taxus corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 94371840, free 42180344, used 52191496, increment 5546288
+linearPredictor: max memory 477626368, total allocated 94371840, free 42180344, used 52191496, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 94371840, free 42180344, used 52191496, increment 0
+Sequential: max memory 477626368, total allocated 94371840, free 42180344, used 52191496, increment 0
+Initial loss: 9.215029361462314
+Time since start: 58.791
+500: time = 5.183000 loss = 7.924131
+Jackknife: leave dem out
+Making features
+makeFeatures: max memory 477626368, total allocated 98566144, free 41611208, used 56954936, increment 4763440
+Taxus dem: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 98566144, free 38255184, used 60310960, increment 3356024
+linearPredictor: max memory 477626368, total allocated 98566144, free 38255184, used 60310960, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 98566144, free 37440168, used 61125976, increment 815016
+Sequential: max memory 477626368, total allocated 98566144, free 37440168, used 61125976, increment 0
+Initial loss: 9.215029361462314
+Time since start: 61.972
+500: time = 3.124000 loss = 7.934980
+Jackknife: leave landform out
+Making features
+makeFeatures: max memory 477626368, total allocated 99614720, free 27278808, used 72335912, increment 11209936
+Taxus landform: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 99614720, free 22114488, used 77500232, increment 5164320
+linearPredictor: max memory 477626368, total allocated 99614720, free 22114488, used 77500232, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 99614720, free 22114488, used 77500232, increment 0
+Sequential: max memory 477626368, total allocated 99614720, free 22114488, used 77500232, increment 0
+Initial loss: 9.215029361462314
+Time since start: 67.165
+500: time = 5.132000 loss = 7.931346
+Jackknife: leave lithoidx out
+Making features
+makeFeatures: max memory 477626368, total allocated 103809024, free 23453480, used 80355544, increment 2855312
+Taxus lithoidx: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 103809024, free 18371696, used 85437328, increment 5081784
+linearPredictor: max memory 477626368, total allocated 103809024, free 18371696, used 85437328, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 103809024, free 18371696, used 85437328, increment 0
+Sequential: max memory 477626368, total allocated 103809024, free 18371696, used 85437328, increment 0
+Initial loss: 9.215029361462314
+Time since start: 72.45
+500: time = 5.226000 loss = 8.091192
+Jackknife: leave prec_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 99614720, free 13971792, used 85642928, increment 205600
+Taxus prec_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 99614720, free 9625824, used 89988896, increment 4345968
+linearPredictor: max memory 477626368, total allocated 99614720, free 9625824, used 89988896, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 99614720, free 9625824, used 89988896, increment 0
+Sequential: max memory 477626368, total allocated 99614720, free 9625824, used 89988896, increment 0
+Initial loss: 9.215029361462314
+Time since start: 77.514
+500: time = 5.013000 loss = 8.105661
+Jackknife: leave slope out
+Making features
+makeFeatures: max memory 477626368, total allocated 93323264, free 34231408, used 59091856, increment -30897040
+Taxus slope: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 93323264, free 30333576, used 62989688, increment 3897832
+linearPredictor: max memory 477626368, total allocated 93323264, free 30333576, used 62989688, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 93323264, free 30333576, used 62989688, increment 0
+Sequential: max memory 477626368, total allocated 93323264, free 30333576, used 62989688, increment 0
+Initial loss: 9.215029361462314
+Time since start: 80.744
+500: time = 3.180000 loss = 8.131053
+Jackknife: leave soil_depth out
+Making features
+makeFeatures: max memory 477626368, total allocated 94371840, free 30552576, used 63819264, increment 829576
+Taxus soil_depth: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 94371840, free 25708120, used 68663720, increment 4844456
+linearPredictor: max memory 477626368, total allocated 94371840, free 25627728, used 68744112, increment 80392
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 94371840, free 24896360, used 69475480, increment 731368
+Sequential: max memory 477626368, total allocated 94371840, free 24896360, used 69475480, increment 0
+Initial loss: 9.215029361462314
+Time since start: 85.977
+500: time = 5.175000 loss = 7.932041
+Jackknife: leave soil_structure out
+Making features
+makeFeatures: max memory 477626368, total allocated 108003328, free 47140656, used 60862672, increment -8612808
+Taxus soil_structure: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 108003328, free 41320784, used 66682544, increment 5819872
+linearPredictor: max memory 477626368, total allocated 108003328, free 41320784, used 66682544, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 108003328, free 41320784, used 66682544, increment 0
+Sequential: max memory 477626368, total allocated 108003328, free 41320784, used 66682544, increment 0
+Initial loss: 9.215029361462314
+Time since start: 91.253
+500: time = 5.204000 loss = 7.936931
+Jackknife: leave soil_type out
+Making features
+makeFeatures: max memory 477626368, total allocated 112197632, free 40398976, used 71798656, increment 5116112
+Taxus soil_type: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 112197632, free 34986064, used 77211568, increment 5412912
+linearPredictor: max memory 477626368, total allocated 112197632, free 34986064, used 77211568, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 112197632, free 34986064, used 77211568, increment 0
+Sequential: max memory 477626368, total allocated 112197632, free 34986064, used 77211568, increment 0
+Initial loss: 9.215029361462314
+Time since start: 96.446
+500: time = 5.130000 loss = 7.930731
+Jackknife: leave temper_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 100663296, free 50110640, used 50552656, increment -26658912
+Taxus temper_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 100663296, free 45249904, used 55413392, increment 4860736
+linearPredictor: max memory 477626368, total allocated 100663296, free 45249904, used 55413392, increment 0
+Deactivating (AGCLS=3.0)
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 100663296, free 45249904, used 55413392, increment 0
+Sequential: max memory 477626368, total allocated 100663296, free 45249904, used 55413392, increment 0
+Initial loss: 9.215029361462314
+Time since start: 101.424
+500: time = 4.919000 loss = 7.959693
+Jackknife: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 105906176, free 21656088, used 84250088, increment 28836696
+Taxus AGCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 105906176, free 21643200, used 84262976, increment 12888
+linearPredictor: max memory 477626368, total allocated 105906176, free 21643200, used 84262976, increment 0
+Deactivating (AGCLS=3.0)
+FeaturedSpace: max memory 477626368, total allocated 105906176, free 21643200, used 84262976, increment 0
+Sequential: max memory 477626368, total allocated 105906176, free 21643200, used 84262976, increment 0
+Initial loss: 9.215029361462314
+200: time = 0.240000 loss = 9.097674
+Res.gain: 0.11735502367977624
+Jackknife: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 65695552, used 39162048, increment -45100928
+Taxus DMCLS: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 65695552, used 39162048, increment 0
+linearPredictor: max memory 477626368, total allocated 104857600, free 65695552, used 39162048, increment 0
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 65695552, used 39162048, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 65695552, used 39162048, increment 0
+Initial loss: 9.215029361462314
+60: time = 0.055000 loss = 9.077725
+Res.gain: 0.13730465241356704
+Jackknife: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 65329864, used 39527736, increment 365688
+Taxus Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 65319480, used 39538120, increment 10384
+linearPredictor: max memory 477626368, total allocated 104857600, free 65319480, used 39538120, increment 0
+Deactivating (Drainage_degree=3.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 65319480, used 39538120, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 65319480, used 39538120, increment 0
+Initial loss: 9.215029361462314
+120: time = 0.129000 loss = 9.096774
+Res.gain: 0.11825567007801219
+Jackknife: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 64524376, used 40333224, increment 795104
+Taxus FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 64513968, used 40343632, increment 10408
+linearPredictor: max memory 477626368, total allocated 104857600, free 64513968, used 40343632, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=16.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 64513968, used 40343632, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 64513968, used 40343632, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.144000 loss = 9.093875
+Res.gain: 0.12115425860947404
+Jackknife: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 62637032, used 42220568, increment 1876936
+Taxus LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 62626640, used 42230960, increment 10392
+linearPredictor: max memory 477626368, total allocated 104857600, free 62626640, used 42230960, increment 0
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=210.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (LV2_CODE=620.0)
+Deactivating (LV2_CODE=710.0)
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 62626640, used 42230960, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 62626640, used 42230960, increment 0
+Initial loss: 9.215029361462314
+160: time = 0.197000 loss = 9.118734
+Res.gain: 0.09629540620539778
+Jackknife: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 61435736, used 43421864, increment 1190904
+Taxus corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 61425328, used 43432272, increment 10408
+linearPredictor: max memory 477626368, total allocated 104857600, free 61425328, used 43432272, increment 0
+Deactivating (corrosion_degree=3.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 61425328, used 43432272, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 61425328, used 43432272, increment 0
+Initial loss: 9.215029361462314
+100: time = 0.102000 loss = 9.211533
+Res.gain: 0.003496778426677949
+Jackknife: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 104857600, free 60646512, used 44211088, increment 778816
+Taxus dem: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 104857600, free 58758744, used 46098856, increment 1887768
+linearPredictor: max memory 477626368, total allocated 104857600, free 58758744, used 46098856, increment 0
+FeaturedSpace: max memory 477626368, total allocated 104857600, free 58758744, used 46098856, increment 0
+Sequential: max memory 477626368, total allocated 104857600, free 58758744, used 46098856, increment 0
+Initial loss: 9.215029361462314
+Time since start: 105.028
+480: time = 2.698000 loss = 8.815878
+Res.gain: 0.3991512808602913
+Jackknife: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 98566144, free 41393480, used 57172664, increment 11073808
+Taxus landform: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 98566144, free 41382664, used 57183480, increment 10816
+linearPredictor: max memory 477626368, total allocated 98566144, free 40496592, used 58069552, increment 886072
+Deactivating (landform=2.0)
+Deactivating (landform=5.0)
+Deactivating (landform=6.0)
+Deactivating (landform=7.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+FeaturedSpace: max memory 477626368, total allocated 98566144, free 40496592, used 58069552, increment 0
+Sequential: max memory 477626368, total allocated 98566144, free 40496592, used 58069552, increment 0
+Initial loss: 9.215029361462314
+120: time = 0.112000 loss = 9.088839
+Res.gain: 0.12618989778610867
+Jackknife: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 98566144, free 39643000, used 58923144, increment 853592
+Taxus lithoidx: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 98566144, free 39630072, used 58936072, increment 12928
+linearPredictor: max memory 477626368, total allocated 98566144, free 39630072, used 58936072, increment 0
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=19.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=42.0)
+Deactivating (lithoidx=43.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=49.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 98566144, free 39630072, used 58936072, increment 0
+Sequential: max memory 477626368, total allocated 98566144, free 39630072, used 58936072, increment 0
+Initial loss: 9.215029361462314
+240: time = 0.333000 loss = 8.877995
+Res.gain: 0.33703421146304713
+Jackknife: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 98566144, free 37058856, used 61507288, increment 2571216
+Taxus prec_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 98566144, free 36239904, used 62326240, increment 818952
+linearPredictor: max memory 477626368, total allocated 98566144, free 36239904, used 62326240, increment 0
+FeaturedSpace: max memory 477626368, total allocated 98566144, free 36239904, used 62326240, increment 0
+Sequential: max memory 477626368, total allocated 98566144, free 36239904, used 62326240, increment 0
+Initial loss: 9.215029361462314
+200: time = 0.354000 loss = 8.759812
+Res.gain: 0.455217489982056
+Jackknife: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 98566144, free 22565344, used 76000800, increment 13674560
+Taxus slope: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 98566144, free 20864360, used 77701784, increment 1700984
+linearPredictor: max memory 477626368, total allocated 98566144, free 20783968, used 77782176, increment 80392
+FeaturedSpace: max memory 477626368, total allocated 98566144, free 20783968, used 77782176, increment 0
+Sequential: max memory 477626368, total allocated 98566144, free 20783968, used 77782176, increment 0
+Initial loss: 9.215029361462314
+Time since start: 107.413
+260: time = 1.549000 loss = 9.015667
+Res.gain: 0.19936250929645283
+Jackknife: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 94371840, free 17270248, used 77101592, increment -680584
+Taxus soil_depth: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 94371840, free 17259112, used 77112728, increment 11136
+linearPredictor: max memory 477626368, total allocated 94371840, free 17259112, used 77112728, increment 0
+Deactivating (soil_depth=999.0)
+FeaturedSpace: max memory 477626368, total allocated 94371840, free 17259112, used 77112728, increment 0
+Sequential: max memory 477626368, total allocated 94371840, free 17259112, used 77112728, increment 0
+Initial loss: 9.215029361462314
+80: time = 0.082000 loss = 9.086185
+Res.gain: 0.12884476973241554
+Jackknife: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 93847552, free 51542424, used 42305128, increment -34807600
+Taxus soil_structure: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 93847552, free 51530376, used 42317176, increment 12048
+linearPredictor: max memory 477626368, total allocated 93847552, free 51530376, used 42317176, increment 0
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=7.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 93847552, free 51530376, used 42317176, increment 0
+Sequential: max memory 477626368, total allocated 93847552, free 51530376, used 42317176, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.167000 loss = 9.097619
+Res.gain: 0.11741017204908566
+Jackknife: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 93847552, free 50531240, used 43316312, increment 999136
+Taxus soil_type: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 93847552, free 50519432, used 43328120, increment 11808
+linearPredictor: max memory 477626368, total allocated 93847552, free 50519432, used 43328120, increment 0
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=8.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 93847552, free 50519432, used 43328120, increment 0
+Sequential: max memory 477626368, total allocated 93847552, free 50519432, used 43328120, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.146000 loss = 9.080200
+Res.gain: 0.13482890349297527
+Jackknife: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 93847552, free 48865920, used 44981632, increment 1653512
+Taxus temper_aver: 
+Regularization values: linear/quadratic/product: 0.201, categorical: 0.250, threshold: 1.530, hinge: 0.500
+47 samples
+Density: max memory 477626368, total allocated 93847552, free 48066336, used 45781216, increment 799584
+linearPredictor: max memory 477626368, total allocated 93847552, free 48066336, used 45781216, increment 0
+FeaturedSpace: max memory 477626368, total allocated 93847552, free 48066336, used 45781216, increment 0
+Sequential: max memory 477626368, total allocated 93847552, free 48066336, used 45781216, increment 0
+Initial loss: 9.215029361462314
+140: time = 0.339000 loss = 8.836585
+Res.gain: 0.3784446978301901
+Ending

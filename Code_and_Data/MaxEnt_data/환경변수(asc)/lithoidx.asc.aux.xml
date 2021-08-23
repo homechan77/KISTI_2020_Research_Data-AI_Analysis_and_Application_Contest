@@ -1,0 +1,25 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <ColorInterp>Gray</ColorInterp>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.5072463768115942</HistMin>
+        <HistMax>69.49275362318841</HistMax>
+        <BucketCount>69</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>23136|1286|4550|31541|16520|895|100903|2132|29194|14739|5873|799222|579|4723|8661|567|1974|46230|5231|9609|337|802|11151|2252|466|1487|1098|1522|2877|1371|30|2384|57405|23728|10976|21087|9949|29776|12929|17788|4794|17332|8637|26872|5460|307|419034|1665|7514|56054|16603|21381|9489|14789|809|31487|108|38665|3609|31811|291|3039|35322|34511|6575|171487|900|55928|4543</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">69</MDI>
+      <MDI key="STATISTICS_MEAN">32.103948600082</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">21.392741400911</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.999</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

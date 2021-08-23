@@ -1,0 +1,2330 @@
+Thu Nov 19 15:36:18 KST 2020
+MaxEnt version 3.4.1
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\AGCLS.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\DMCLS.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\Drainage_degree.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\FIFTH_FRTP.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\LV2_CODE.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\corrosion_degree.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\dem.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\landform.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\lithoidx.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\prec_aver.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\slope.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\soil_depth.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\soil_structure.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\soil_type.asc
+Checking header of C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)\temper_aver.asc
+Reading samples from Ginkgo.csv
+Read samples: max memory 477626368, total allocated 117440512, free 52090672, used 65349840, increment -1337312
+Extractor: max memory 477626368, total allocated 117440512, free 51135952, used 66304560, increment 954720
+Extracting random background and sample data
+Time since start: 1.006
+2335736 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_result\Ginkgo samplesfile=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\생물종위치\Ginkgo.csv environmentallayers=C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc) -t AGCLS -t DMCLS -t Drainage_degree -t FIFTH_FRTP -t LV2_CODE -t corrosion_degree -t landform -t lithoidx -t soil_depth -t soil_structure -t soil_type
+Species: Ginkgo_biloba_L.
+Layers: AGCLS DMCLS Drainage_degree FIFTH_FRTP LV2_CODE corrosion_degree dem landform lithoidx prec_aver slope soil_depth soil_structure soil_type temper_aver
+Layertypes: Categorical Categorical Categorical Categorical Categorical Categorical Continuous Categorical Categorical Continuous Continuous Categorical Categorical Categorical Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_result\Ginkgo
+samplesfile: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\생물종위치\Ginkgo.csv
+environmentallayers: C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_data\환경변수(asc)
+
+getSamples: max memory 477626368, total allocated 116391936, free 85795776, used 30596160, increment -35708400
+Making features
+makeFeatures: max memory 477626368, total allocated 116391936, free 84692616, used 31699320, increment 1103160
+Ginkgo_biloba_L.: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 116391936, free 79789024, used 36602912, increment 4903592
+linearPredictor: max memory 477626368, total allocated 116391936, free 79708648, used 36683288, increment 80376
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 116391936, free 79708648, used 36683288, increment 0
+Sequential: max memory 477626368, total allocated 116391936, free 79708648, used 36683288, increment 0
+Initial loss: 9.214830277249035
+Time since start: 6.189
+500: time = 5.086000 loss = 8.172405
+Resulting gain: 1.0424254468237262
+Projecting...
+Writing file C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_result\Ginkgo\Ginkgo_biloba_L..asc
+Time since start: 13.381
+Writing C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터정리(11.19)\MaxEnt_result\Ginkgo\plots\Ginkgo_biloba_L..png
+Time since start: 15.666
+Ginkgo_biloba_L. response curves
+Response curve: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 80840000, used 92175040, increment 55491752
+Ginkgo_biloba_L. AGCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 80820568, used 92194472, increment 19432
+linearPredictor: max memory 477626368, total allocated 173015040, free 80820568, used 92194472, increment 0
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 80820568, used 92194472, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 80820568, used 92194472, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.119000 loss = 9.201316
+Resulting gain: 0.013514475319977848
+Ginkgo_biloba_L. response curves
+Response curve: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 76193016, used 96822024, increment 4627552
+Ginkgo_biloba_L. DMCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 76180400, used 96834640, increment 12616
+linearPredictor: max memory 477626368, total allocated 173015040, free 74039304, used 98975736, increment 2141096
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 74039304, used 98975736, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 74039304, used 98975736, increment 0
+Initial loss: 9.214830277249035
+60: time = 0.070000 loss = 9.202312
+Resulting gain: 0.012518300784490677
+Ginkgo_biloba_L. response curves
+Response curve: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 71603864, used 101411176, increment 2435440
+Ginkgo_biloba_L. Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 71590616, used 101424424, increment 13248
+linearPredictor: max memory 477626368, total allocated 173015040, free 69449520, used 103565520, increment 2141096
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 69449520, used 103565520, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 69449520, used 103565520, increment 0
+Initial loss: 9.214830277249035
+Time since start: 16.776
+100: time = 0.126000 loss = 9.150374
+Resulting gain: 0.06445605419312628
+Ginkgo_biloba_L. response curves
+Response curve: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 66653888, used 106361152, increment 2795632
+Ginkgo_biloba_L. FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 64499880, used 108515160, increment 2154008
+linearPredictor: max memory 477626368, total allocated 173015040, free 64499880, used 108515160, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 64499880, used 108515160, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 64499880, used 108515160, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.117000 loss = 9.087953
+Resulting gain: 0.12687726810913702
+Ginkgo_biloba_L. response curves
+Response curve: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 59807840, used 113207200, increment 4692040
+Ginkgo_biloba_L. LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 59788008, used 113227032, increment 19832
+linearPredictor: max memory 477626368, total allocated 173015040, free 59788008, used 113227032, increment 0
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 59788008, used 113227032, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 59788008, used 113227032, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.204000 loss = 9.150380
+Resulting gain: 0.06445055053744575
+Ginkgo_biloba_L. response curves
+Response curve: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 54655616, used 118359424, increment 5132392
+Ginkgo_biloba_L. corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 54644848, used 118370192, increment 10768
+linearPredictor: max memory 477626368, total allocated 173015040, free 54644848, used 118370192, increment 0
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 54644848, used 118370192, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 54644848, used 118370192, increment 0
+Initial loss: 9.214830277249035
+100: time = 0.089000 loss = 9.118148
+Resulting gain: 0.09668270315787808
+Ginkgo_biloba_L. response curves
+Response curve: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 173015040, free 49765488, used 123249552, increment 4879360
+Ginkgo_biloba_L. dem: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 173015040, free 49670128, used 123344912, increment 95360
+linearPredictor: max memory 477626368, total allocated 173015040, free 49589752, used 123425288, increment 80376
+FeaturedSpace: max memory 477626368, total allocated 173015040, free 49589752, used 123425288, increment 0
+Sequential: max memory 477626368, total allocated 173015040, free 49589752, used 123425288, increment 0
+Initial loss: 9.214830277249035
+Time since start: 19.425
+320: time = 1.992000 loss = 9.115877
+Resulting gain: 0.09895296779400908
+Ginkgo_biloba_L. response curves
+Response curve: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 153092096, free 87458192, used 65633904, increment -57791384
+Ginkgo_biloba_L. landform: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 153092096, free 87445144, used 65646952, increment 13048
+linearPredictor: max memory 477626368, total allocated 153092096, free 87445144, used 65646952, increment 0
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+FeaturedSpace: max memory 477626368, total allocated 153092096, free 87445144, used 65646952, increment 0
+Sequential: max memory 477626368, total allocated 153092096, free 87445144, used 65646952, increment 0
+Initial loss: 9.214830277249035
+100: time = 0.146000 loss = 9.180621
+Resulting gain: 0.034209473971708704
+Ginkgo_biloba_L. response curves
+Response curve: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 153092096, free 82474584, used 70617512, increment 4970560
+Ginkgo_biloba_L. lithoidx: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 153092096, free 82461320, used 70630776, increment 13264
+linearPredictor: max memory 477626368, total allocated 153092096, free 82461320, used 70630776, increment 0
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 153092096, free 82461320, used 70630776, increment 0
+Sequential: max memory 477626368, total allocated 153092096, free 82461320, used 70630776, increment 0
+Initial loss: 9.214830277249035
+200: time = 0.289000 loss = 8.973941
+Resulting gain: 0.24088940747028786
+Ginkgo_biloba_L. response curves
+Response curve: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 153092096, free 76595880, used 76496216, increment 5865440
+Ginkgo_biloba_L. prec_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 153092096, free 74912696, used 78179400, increment 1683184
+linearPredictor: max memory 477626368, total allocated 153092096, free 74912696, used 78179400, increment 0
+FeaturedSpace: max memory 477626368, total allocated 153092096, free 74912696, used 78179400, increment 0
+Sequential: max memory 477626368, total allocated 153092096, free 74912696, used 78179400, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.317000 loss = 9.132622
+Resulting gain: 0.0822080050822116
+Ginkgo_biloba_L. response curves
+Time since start: 20.45
+Response curve: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 153092096, free 61155448, used 91936648, increment 13757248
+Ginkgo_biloba_L. slope: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 153092096, free 60820960, used 92271136, increment 334488
+linearPredictor: max memory 477626368, total allocated 153092096, free 60740584, used 92351512, increment 80376
+FeaturedSpace: max memory 477626368, total allocated 153092096, free 60740584, used 92351512, increment 0
+Sequential: max memory 477626368, total allocated 153092096, free 60740584, used 92351512, increment 0
+Initial loss: 9.214830277249035
+Time since start: 21.533
+180: time = 1.072000 loss = 9.160299
+Resulting gain: 0.05453135252560415
+Ginkgo_biloba_L. response curves
+Response curve: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 142606336, free 44901712, used 97704624, increment 5353112
+Ginkgo_biloba_L. soil_depth: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 142606336, free 44888008, used 97718328, increment 13704
+linearPredictor: max memory 477626368, total allocated 142606336, free 44888008, used 97718328, increment 0
+Deactivating (soil_depth=999.0)
+FeaturedSpace: max memory 477626368, total allocated 142606336, free 44888008, used 97718328, increment 0
+Sequential: max memory 477626368, total allocated 142606336, free 44888008, used 97718328, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.076000 loss = 9.176140
+Resulting gain: 0.03869039022175258
+Ginkgo_biloba_L. response curves
+Response curve: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 142606336, free 40067264, used 102539072, increment 4820744
+Ginkgo_biloba_L. soil_structure: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 142606336, free 40060376, used 102545960, increment 6888
+linearPredictor: max memory 477626368, total allocated 142606336, free 40060376, used 102545960, increment 0
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 142606336, free 40060376, used 102545960, increment 0
+Sequential: max memory 477626368, total allocated 142606336, free 40060376, used 102545960, increment 0
+Initial loss: 9.214830277249035
+120: time = 0.130000 loss = 9.011465
+Resulting gain: 0.20336524962455726
+Ginkgo_biloba_L. response curves
+Response curve: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 142606336, free 34784520, used 107821816, increment 5275856
+Ginkgo_biloba_L. soil_type: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 142606336, free 34763952, used 107842384, increment 20568
+linearPredictor: max memory 477626368, total allocated 142606336, free 34763952, used 107842384, increment 0
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 142606336, free 34763952, used 107842384, increment 0
+Sequential: max memory 477626368, total allocated 142606336, free 34763952, used 107842384, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.168000 loss = 9.156395
+Resulting gain: 0.05843490553758102
+Ginkgo_biloba_L. response curves
+Response curve: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 142606336, free 29405264, used 113201072, increment 5358688
+Ginkgo_biloba_L. temper_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 142606336, free 27944984, used 114661352, increment 1460280
+linearPredictor: max memory 477626368, total allocated 142606336, free 27944984, used 114661352, increment 0
+FeaturedSpace: max memory 477626368, total allocated 142606336, free 27944984, used 114661352, increment 0
+Sequential: max memory 477626368, total allocated 142606336, free 27944984, used 114661352, increment 0
+Initial loss: 9.214830277249035
+Time since start: 22.874
+420: time = 0.765000 loss = 9.106466
+Resulting gain: 0.10836446520534437
+Ginkgo_biloba_L. response curves
+Jackknife: leave AGCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 136839168, free 68340560, used 68498608, increment -46162744
+Ginkgo_biloba_L. AGCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 136839168, free 62509688, used 74329480, increment 5830872
+linearPredictor: max memory 477626368, total allocated 136839168, free 62509688, used 74329480, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 136839168, free 62509688, used 74329480, increment 0
+Sequential: max memory 477626368, total allocated 136839168, free 62509688, used 74329480, increment 0
+Initial loss: 9.214830277249035
+Time since start: 29.069
+500: time = 5.240000 loss = 8.173307
+Jackknife: leave DMCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 148373504, free 79286024, used 69087480, increment -5242000
+Ginkgo_biloba_L. DMCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 148373504, free 74432032, used 73941472, increment 4853992
+linearPredictor: max memory 477626368, total allocated 148373504, free 74432032, used 73941472, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 148373504, free 74432032, used 73941472, increment 0
+Sequential: max memory 477626368, total allocated 148373504, free 74432032, used 73941472, increment 0
+Initial loss: 9.214830277249035
+Time since start: 34.526
+500: time = 5.363000 loss = 8.176614
+Jackknife: leave Drainage_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 113246208, free 35815008, used 77431200, increment 3489728
+Ginkgo_biloba_L. Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 113246208, free 30401464, used 82844744, increment 5413544
+linearPredictor: max memory 477626368, total allocated 113246208, free 30401464, used 82844744, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 113246208, free 30401464, used 82844744, increment 0
+Sequential: max memory 477626368, total allocated 113246208, free 30401464, used 82844744, increment 0
+Initial loss: 9.214830277249035
+Time since start: 39.97
+500: time = 5.360000 loss = 8.175654
+Jackknife: leave FIFTH_FRTP out
+Making features
+makeFeatures: max memory 477626368, total allocated 147324928, free 37181048, used 110143880, increment 27299136
+Ginkgo_biloba_L. FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 147324928, free 32288392, used 115036536, increment 4892656
+linearPredictor: max memory 477626368, total allocated 147324928, free 32208016, used 115116912, increment 80376
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 147324928, free 32208016, used 115116912, increment 0
+Sequential: max memory 477626368, total allocated 147324928, free 30649160, used 116675768, increment 1558856
+Initial loss: 9.214830277249035
+Time since start: 45.304
+500: time = 5.249000 loss = 8.257665
+Jackknife: leave LV2_CODE out
+Making features
+makeFeatures: max memory 477626368, total allocated 132120576, free 27147872, used 104972704, increment -11703064
+Ginkgo_biloba_L. LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 132120576, free 21489560, used 110631016, increment 5658312
+linearPredictor: max memory 477626368, total allocated 132120576, free 21489560, used 110631016, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 132120576, free 21489560, used 110631016, increment 0
+Sequential: max memory 477626368, total allocated 132120576, free 21489560, used 110631016, increment 0
+Initial loss: 9.214830277249035
+Time since start: 50.725
+500: time = 5.341000 loss = 8.205982
+Jackknife: leave corrosion_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 146276352, free 5934200, used 140342152, increment 29711136
+Ginkgo_biloba_L. corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 146800640, free 71682200, used 75118440, increment -65223712
+linearPredictor: max memory 477626368, total allocated 146800640, free 71682200, used 75118440, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 146800640, free 71682200, used 75118440, increment 0
+Sequential: max memory 477626368, total allocated 146800640, free 71682200, used 75118440, increment 0
+Initial loss: 9.214830277249035
+Time since start: 56.061
+500: time = 5.251000 loss = 8.188577
+Jackknife: leave dem out
+Making features
+makeFeatures: max memory 477626368, total allocated 139984896, free 108556504, used 31428392, increment -43690048
+Ginkgo_biloba_L. dem: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 139984896, free 104192776, used 35792120, increment 4363728
+linearPredictor: max memory 477626368, total allocated 139984896, free 104192776, used 35792120, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 139984896, free 104192776, used 35792120, increment 0
+Sequential: max memory 477626368, total allocated 139984896, free 104192776, used 35792120, increment 0
+Initial loss: 9.214830277249035
+Time since start: 59.54
+500: time = 3.404000 loss = 8.287865
+Jackknife: leave landform out
+Making features
+makeFeatures: max memory 477626368, total allocated 113770496, free 43792056, used 69978440, increment 34186320
+Ginkgo_biloba_L. landform: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 113246208, free 78263208, used 34983000, increment -34995440
+linearPredictor: max memory 477626368, total allocated 113246208, free 78263208, used 34983000, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 113246208, free 78263208, used 34983000, increment 0
+Sequential: max memory 477626368, total allocated 113246208, free 78263208, used 34983000, increment 0
+Initial loss: 9.214830277249035
+Time since start: 64.934
+500: time = 5.314000 loss = 8.175954
+Jackknife: leave lithoidx out
+Making features
+makeFeatures: max memory 477626368, total allocated 139460608, free 60270768, used 79189840, increment 44206840
+Ginkgo_biloba_L. lithoidx: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 139460608, free 54322536, used 85138072, increment 5948232
+linearPredictor: max memory 477626368, total allocated 139460608, free 54322536, used 85138072, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 139460608, free 54322536, used 85138072, increment 0
+Sequential: max memory 477626368, total allocated 139460608, free 54322536, used 85138072, increment 0
+Initial loss: 9.214830277249035
+Time since start: 70.246
+500: time = 5.242000 loss = 8.364782
+Jackknife: leave prec_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 127926272, free 47369016, used 80557256, increment -4580816
+Ginkgo_biloba_L. prec_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 127926272, free 43033328, used 84892944, increment 4335688
+linearPredictor: max memory 477626368, total allocated 127926272, free 43033328, used 84892944, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 127926272, free 43033328, used 84892944, increment 0
+Sequential: max memory 477626368, total allocated 127926272, free 43033328, used 84892944, increment 0
+Initial loss: 9.214830277249035
+Time since start: 75.643
+500: time = 5.324000 loss = 8.397189
+Jackknife: leave slope out
+Making features
+makeFeatures: max memory 477626368, total allocated 121634816, free 31944120, used 89690696, increment 4797752
+Ginkgo_biloba_L. slope: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 120586240, free 75150368, used 45435872, increment -44254824
+linearPredictor: max memory 477626368, total allocated 120586240, free 75150368, used 45435872, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 120586240, free 75150368, used 45435872, increment 0
+Sequential: max memory 477626368, total allocated 120586240, free 75150368, used 45435872, increment 0
+Initial loss: 9.214830277249035
+Time since start: 79.137
+500: time = 3.426000 loss = 8.179926
+Jackknife: leave soil_depth out
+Making features
+makeFeatures: max memory 477626368, total allocated 123207680, free 40077800, used 83129880, increment 37694008
+Ginkgo_biloba_L. soil_depth: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 123207680, free 35648344, used 87559336, increment 4429456
+linearPredictor: max memory 477626368, total allocated 123207680, free 35648344, used 87559336, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 123207680, free 35648344, used 87559336, increment 0
+Sequential: max memory 477626368, total allocated 123207680, free 35648344, used 87559336, increment 0
+Initial loss: 9.214830277249035
+Time since start: 84.499
+500: time = 5.273000 loss = 8.177292
+Jackknife: leave soil_structure out
+Making features
+makeFeatures: max memory 477626368, total allocated 132644864, free 62484696, used 70160168, increment -17399168
+Ginkgo_biloba_L. soil_structure: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 132644864, free 57080968, used 75563896, increment 5403728
+linearPredictor: max memory 477626368, total allocated 132644864, free 57080968, used 75563896, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 132644864, free 57080968, used 75563896, increment 0
+Sequential: max memory 477626368, total allocated 132644864, free 57080968, used 75563896, increment 0
+Initial loss: 9.214830277249035
+Time since start: 89.77
+500: time = 5.192000 loss = 8.214166
+Jackknife: leave soil_type out
+Making features
+makeFeatures: max memory 477626368, total allocated 131596288, free 77896968, used 53699320, increment -21864576
+Ginkgo_biloba_L. soil_type: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 131596288, free 72644680, used 58951608, increment 5252288
+linearPredictor: max memory 477626368, total allocated 131596288, free 72644680, used 58951608, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 131596288, free 72644680, used 58951608, increment 0
+Sequential: max memory 477626368, total allocated 131596288, free 72644680, used 58951608, increment 0
+Initial loss: 9.214830277249035
+Time since start: 95.149
+500: time = 5.291000 loss = 8.179068
+Jackknife: leave temper_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 134742016, free 58806688, used 75935328, increment 16983720
+Ginkgo_biloba_L. temper_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 134742016, free 53495312, used 81246704, increment 5311376
+linearPredictor: max memory 477626368, total allocated 134742016, free 53495312, used 81246704, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_depth=999.0)
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 134742016, free 53495312, used 81246704, increment 0
+Sequential: max memory 477626368, total allocated 134742016, free 53495312, used 81246704, increment 0
+Initial loss: 9.214830277249035
+Time since start: 100.278
+500: time = 5.056000 loss = 8.270360
+Jackknife: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 54766120, used 66344408, increment -14902296
+Ginkgo_biloba_L. AGCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 54753352, used 66357176, increment 12768
+linearPredictor: max memory 477626368, total allocated 121110528, free 54753352, used 66357176, increment 0
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 54753352, used 66357176, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 54753352, used 66357176, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.100000 loss = 9.201316
+Res.gain: 0.013514475319977848
+Jackknife: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 54279416, used 66831112, increment 473936
+Ginkgo_biloba_L. DMCLS: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 54266648, used 66843880, increment 12768
+linearPredictor: max memory 477626368, total allocated 121110528, free 54266648, used 66843880, increment 0
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 54266648, used 66843880, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 54266648, used 66843880, increment 0
+Initial loss: 9.214830277249035
+60: time = 0.071000 loss = 9.202312
+Res.gain: 0.012518300784490677
+Jackknife: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 52940528, used 68170000, increment 1326120
+Ginkgo_biloba_L. Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 52923376, used 68187152, increment 17152
+linearPredictor: max memory 477626368, total allocated 121110528, free 52923376, used 68187152, increment 0
+Deactivating (Drainage_degree=4.0)
+Deactivating (Drainage_degree=5.0)
+Deactivating (Drainage_degree=6.0)
+Deactivating (Drainage_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 52923376, used 68187152, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 52923376, used 68187152, increment 0
+Initial loss: 9.214830277249035
+100: time = 0.116000 loss = 9.150374
+Res.gain: 0.06445605419312628
+Jackknife: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 52216120, used 68894408, increment 707256
+Ginkgo_biloba_L. FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 52203176, used 68907352, increment 12944
+linearPredictor: max memory 477626368, total allocated 121110528, free 52203176, used 68907352, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=10.0)
+Deactivating (FIFTH_FRTP=11.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 52203176, used 68907352, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 52203176, used 68907352, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.110000 loss = 9.087953
+Res.gain: 0.12687726810913702
+Jackknife: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 51656400, used 69454128, increment 546776
+Ginkgo_biloba_L. LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 51645744, used 69464784, increment 10656
+linearPredictor: max memory 477626368, total allocated 121110528, free 51645744, used 69464784, increment 0
+Deactivating (LV2_CODE=110.0)
+Deactivating (LV2_CODE=120.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=240.0)
+Deactivating (LV2_CODE=410.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=510.0)
+Deactivating (LV2_CODE=610.0)
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 51645744, used 69464784, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 51645744, used 69464784, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.229000 loss = 9.150380
+Res.gain: 0.06445055053744575
+Jackknife: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 49687464, used 71423064, increment 1958280
+Ginkgo_biloba_L. corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 49672064, used 71438464, increment 15400
+linearPredictor: max memory 477626368, total allocated 121110528, free 49672064, used 71438464, increment 0
+Deactivating (corrosion_degree=4.0)
+Deactivating (corrosion_degree=999.0)
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 49672064, used 71438464, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 49672064, used 71438464, increment 0
+Initial loss: 9.214830277249035
+100: time = 0.083000 loss = 9.118148
+Res.gain: 0.09668270315787808
+Jackknife: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 121110528, free 49057712, used 72052816, increment 614352
+Ginkgo_biloba_L. dem: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 121110528, free 47626568, used 73483960, increment 1431144
+linearPredictor: max memory 477626368, total allocated 121110528, free 47626568, used 73483960, increment 0
+FeaturedSpace: max memory 477626368, total allocated 121110528, free 47626568, used 73483960, increment 0
+Sequential: max memory 477626368, total allocated 121110528, free 47626568, used 73483960, increment 0
+Initial loss: 9.214830277249035
+Time since start: 103.046
+320: time = 2.004000 loss = 9.115877
+Res.gain: 0.09895296779400908
+Jackknife: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 162529280, free 43800176, used 118729104, increment 45245144
+Ginkgo_biloba_L. landform: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 162529280, free 43786384, used 118742896, increment 13792
+linearPredictor: max memory 477626368, total allocated 162529280, free 43786384, used 118742896, increment 0
+Deactivating (landform=6.0)
+Deactivating (landform=8.0)
+Deactivating (landform=999.0)
+FeaturedSpace: max memory 477626368, total allocated 162529280, free 43786384, used 118742896, increment 0
+Sequential: max memory 477626368, total allocated 162529280, free 43786384, used 118742896, increment 0
+Initial loss: 9.214830277249035
+100: time = 0.128000 loss = 9.180621
+Res.gain: 0.034209473971708704
+Jackknife: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 162529280, free 43138176, used 119391104, increment 648208
+Ginkgo_biloba_L. lithoidx: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 162529280, free 43124184, used 119405096, increment 13992
+linearPredictor: max memory 477626368, total allocated 162529280, free 43124184, used 119405096, increment 0
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=3.0)
+Deactivating (lithoidx=4.0)
+Deactivating (lithoidx=5.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=9.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=14.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=25.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=29.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=33.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=36.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=38.0)
+Deactivating (lithoidx=39.0)
+Deactivating (lithoidx=40.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=44.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=51.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=54.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=58.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=63.0)
+Deactivating (lithoidx=64.0)
+Deactivating (lithoidx=65.0)
+Deactivating (lithoidx=67.0)
+Deactivating (lithoidx=68.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 162529280, free 43124184, used 119405096, increment 0
+Sequential: max memory 477626368, total allocated 162529280, free 43124184, used 119405096, increment 0
+Initial loss: 9.214830277249035
+200: time = 0.328000 loss = 8.973941
+Res.gain: 0.24088940747028786
+Jackknife: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 162529280, free 41601336, used 120927944, increment 1522848
+Ginkgo_biloba_L. prec_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 162529280, free 39750720, used 122778560, increment 1850616
+linearPredictor: max memory 477626368, total allocated 162529280, free 39750720, used 122778560, increment 0
+FeaturedSpace: max memory 477626368, total allocated 162529280, free 39750720, used 122778560, increment 0
+Sequential: max memory 477626368, total allocated 162529280, free 39750720, used 122778560, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.315000 loss = 9.132622
+Res.gain: 0.0822080050822116
+Jackknife: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 162529280, free 29726224, used 132803056, increment 10024496
+Ginkgo_biloba_L. slope: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 162529280, free 29471344, used 133057936, increment 254880
+linearPredictor: max memory 477626368, total allocated 162529280, free 29390968, used 133138312, increment 80376
+FeaturedSpace: max memory 477626368, total allocated 162529280, free 29390968, used 133138312, increment 0
+Sequential: max memory 477626368, total allocated 162529280, free 29390968, used 133138312, increment 0
+Initial loss: 9.214830277249035
+Time since start: 104.935
+180: time = 1.081000 loss = 9.160299
+Res.gain: 0.05453135252560415
+Jackknife: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 152567808, free 58217808, used 94350000, increment -38788312
+Ginkgo_biloba_L. soil_depth: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 152567808, free 56543832, used 96023976, increment 1673976
+linearPredictor: max memory 477626368, total allocated 152567808, free 56543832, used 96023976, increment 0
+Deactivating (soil_depth=999.0)
+FeaturedSpace: max memory 477626368, total allocated 152567808, free 56543832, used 96023976, increment 0
+Sequential: max memory 477626368, total allocated 152567808, free 56543832, used 96023976, increment 0
+Initial loss: 9.214830277249035
+80: time = 0.086000 loss = 9.176140
+Res.gain: 0.03869039022175258
+Jackknife: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 152567808, free 56083448, used 96484360, increment 460384
+Ginkgo_biloba_L. soil_structure: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 152567808, free 56068992, used 96498816, increment 14456
+linearPredictor: max memory 477626368, total allocated 152567808, free 56068992, used 96498816, increment 0
+Deactivating (soil_structure=2.0)
+Deactivating (soil_structure=5.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=10.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_structure=999.0)
+FeaturedSpace: max memory 477626368, total allocated 152567808, free 56068992, used 96498816, increment 0
+Sequential: max memory 477626368, total allocated 152567808, free 56068992, used 96498816, increment 0
+Initial loss: 9.214830277249035
+120: time = 0.131000 loss = 9.011465
+Res.gain: 0.20336524962455726
+Jackknife: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 152567808, free 55159456, used 97408352, increment 909536
+Ginkgo_biloba_L. soil_type: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 152567808, free 55145384, used 97422424, increment 14072
+linearPredictor: max memory 477626368, total allocated 152567808, free 55145384, used 97422424, increment 0
+Deactivating (soil_type=1.0)
+Deactivating (soil_type=2.0)
+Deactivating (soil_type=4.0)
+Deactivating (soil_type=5.0)
+Deactivating (soil_type=10.0)
+Deactivating (soil_type=11.0)
+Deactivating (soil_type=999.0)
+FeaturedSpace: max memory 477626368, total allocated 152567808, free 55145384, used 97422424, increment 0
+Sequential: max memory 477626368, total allocated 152567808, free 55145384, used 97422424, increment 0
+Initial loss: 9.214830277249035
+140: time = 0.180000 loss = 9.156395
+Res.gain: 0.05843490553758102
+Jackknife: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 152567808, free 54161488, used 98406320, increment 983896
+Ginkgo_biloba_L. temper_aver: 
+Regularization values: linear/quadratic/product: 0.207, categorical: 0.250, threshold: 1.550, hinge: 0.500
+45 samples
+Density: max memory 477626368, total allocated 152567808, free 52560840, used 100006968, increment 1600648
+linearPredictor: max memory 477626368, total allocated 152567808, free 52560840, used 100006968, increment 0
+FeaturedSpace: max memory 477626368, total allocated 152567808, free 52560840, used 100006968, increment 0
+Sequential: max memory 477626368, total allocated 152567808, free 52560840, used 100006968, increment 0
+Initial loss: 9.214830277249035
+Time since start: 106.187
+420: time = 0.832000 loss = 9.106466
+Res.gain: 0.10836446520534437
+Ending

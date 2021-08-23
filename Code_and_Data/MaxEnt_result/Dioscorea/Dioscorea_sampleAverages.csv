@@ -1,0 +1,16 @@
+Predictor variable,Categorical,Sample average
+AGCLS,true,1.0
+DMCLS,true,3.0
+Drainage_degree,true,1.0
+FIFTH_FRTP,true,1.0
+LV2_CODE,true,320.0
+corrosion_degree,true,2.0
+dem,false,303.88424156807565
+landform,true,1.0
+lithoidx,true,12.0
+prec_aver,false,108.04279251785965
+slope,false,10.526243898245665
+soil_depth,true,3.0
+soil_structure,true,4.0
+soil_type,true,13.0
+temper_aver,false,10.163588575414709

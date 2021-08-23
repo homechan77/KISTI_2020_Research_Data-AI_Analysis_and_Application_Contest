@@ -1,0 +1,2 @@
+java -mx500m -cp "/C:/Users/Ko/Documents/%ec%a7%80%ec%a7%88%ec%9e%90%ec%9b%90%ec%97%b0%ea%b5%ac%ec%9b%90/%ec%97%b0%ea%b5%ac%eb%8d%b0%ec%9d%b4%ed%84%b0-AI%eb%b6%84%ec%84%9d%ed%99%9c%ec%9a%a9_%ea%b2%bd%ec%a7%84%eb%8c%80%ed%9a%8c/maxent/maxent.jar;maxent.jar" density.Explain -l C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17)\Taxus.lambdas -c C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\maxent_result\Taxus(11.17)\Taxus.asc C:\Users\Ko\Documents\지질자원연구원\연구데이터-AI분석활용_경진대회\데이터\데이터_1020\종합
+@if errorlevel 1 pause

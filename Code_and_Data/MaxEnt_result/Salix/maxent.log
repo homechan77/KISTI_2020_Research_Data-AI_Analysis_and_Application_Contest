@@ -1,0 +1,1700 @@
+Sun Nov 29 14:15:09 KST 2020
+MaxEnt version 3.4.4
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\AGCLS.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\DMCLS.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\Drainage_degree.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\FIFTH_FRTP.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\LV2_CODE.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\corrosion_degree.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\dem.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\landform.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\lithoidx.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\prec_aver.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\slope.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_depth.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_structure.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_type.asc
+Checking header of C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\temper_aver.asc
+Reading samples from Salix.csv
+Read samples: max memory 477626368, total allocated 124780544, free 94652216, used 30128328, increment 30128328
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\AGCLS.asc size 4693493, max memory = 477626368
+Reading file AGCLS.asc
+FLOAT, 2345201 pixels with data
+readGrid: max memory 477626368, total allocated 252706816, free 173769312, used 78937504, increment 48809176
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\AGCLS.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\DMCLS.asc size 4693489, max memory = 477626368
+Reading file DMCLS.asc
+Time since start: 1.126
+FLOAT, 2345201 pixels with data
+readGrid: max memory 477626368, total allocated 251133952, free 136469896, used 114664056, increment 35726552
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\DMCLS.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\Drainage_degree.asc size 4837803, max memory = 477626368
+Reading file Drainage_degree.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 250085376, free 87977856, used 162107520, increment 47443464
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\Drainage_degree.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\FIFTH_FRTP.asc size 5192892, max memory = 477626368
+Reading file FIFTH_FRTP.asc
+Time since start: 2.269
+FLOAT, 2345201 pixels with data
+readGrid: max memory 477626368, total allocated 249036800, free 178980160, used 70056640, increment -92050880
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\FIFTH_FRTP.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\LV2_CODE.asc size 9381345, max memory = 477626368
+Reading file LV2_CODE.asc
+FLOAT, 2343928 pixels with data
+readGrid: max memory 477626368, total allocated 218103808, free 144299184, used 73804624, increment 3747984
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\LV2_CODE.mxe
+Time since start: 3.41
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\corrosion_degree.asc size 4837803, max memory = 477626368
+Reading file corrosion_degree.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 232259584, free 102187960, used 130071624, increment 56267000
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\corrosion_degree.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\dem.asc size 45586681, max memory = 477626368
+Reading file dem.asc
+Time since start: 4.784
+FLOAT, 2346060 pixels with data
+readGrid: max memory 477626368, total allocated 234881024, free 70902600, used 163978424, increment 33906800
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\dem.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\landform.asc size 4837803, max memory = 477626368
+Reading file landform.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 235929600, free 179691488, used 56238112, increment -107740312
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\landform.mxe
+Time since start: 5.964
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\lithoidx.asc size 6829328, max memory = 477626368
+Reading file lithoidx.asc
+FLOAT, 2345996 pixels with data
+readGrid: max memory 477626368, total allocated 232259584, free 174376680, used 57882904, increment 1644792
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\lithoidx.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\prec_aver.asc size 39001477, max memory = 477626368
+Reading file prec_aver.asc
+Time since start: 7.057
+FLOAT, 2346060 pixels with data
+readGrid: max memory 477626368, total allocated 236978176, free 162190592, used 74787584, increment 16904680
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\prec_aver.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\slope.asc size 50957715, max memory = 477626368
+Reading file slope.asc
+Time since start: 8.154
+FLOAT, 2339778 pixels with data
+readGrid: max memory 477626368, total allocated 238551040, free 108327184, used 130223856, increment 55436272
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\slope.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_depth.asc size 4837803, max memory = 477626368
+Reading file soil_depth.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 236978176, free 88891080, used 148087096, increment 17863240
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\soil_depth.mxe
+Time since start: 9.316
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_structure.asc size 5049574, max memory = 477626368
+Reading file soil_structure.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 237502464, free 72097656, used 165404808, increment 17317712
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\soil_structure.mxe
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\soil_type.asc size 6345147, max memory = 477626368
+Reading file soil_type.asc
+FLOAT, 2344864 pixels with data
+readGrid: max memory 477626368, total allocated 235929600, free 83442976, used 152486624, increment -12918184
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\soil_type.mxe
+Time since start: 10.534
+Converting file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\temper_aver.asc size 48723208, max memory = 477626368
+Reading file temper_aver.asc
+FLOAT, 2346060 pixels with data
+readGrid: max memory 477626368, total allocated 238551040, free 54221704, used 184329336, increment 31842712
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)\maxent.cache\temper_aver.mxe
+Extractor: max memory 477626368, total allocated 238551040, free 53851624, used 184699416, increment 370080
+Extracting random background and sample data
+Time since start: 12.399
+2335736 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_result\Salix samplesfile=C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\생물종위치\Salix.csv environmentallayers=C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc) -t AGCLS -t DMCLS -t Drainage_degree -t FIFTH_FRTP -t LV2_CODE -t corrosion_degree -t landform -t lithoidx -t soil_depth -t soil_structure -t soil_type
+Species: Salix_koreensis_Andersson
+Layers: AGCLS DMCLS Drainage_degree FIFTH_FRTP LV2_CODE corrosion_degree dem landform lithoidx prec_aver slope soil_depth soil_structure soil_type temper_aver
+Layertypes: Categorical Categorical Categorical Categorical Categorical Categorical Continuous Categorical Categorical Continuous Continuous Categorical Categorical Categorical Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_result\Salix
+samplesfile: C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\생물종위치\Salix.csv
+environmentallayers: C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_data\환경변수(asc)
+
+getSamples: max memory 477626368, total allocated 240123904, free 194431632, used 45692272, increment -139007144
+Making features
+makeFeatures: max memory 477626368, total allocated 240123904, free 191234528, used 48889376, increment 3197104
+Salix_koreensis_Andersson: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 240123904, free 181540056, used 58583848, increment 9694472
+linearPredictor: max memory 477626368, total allocated 240123904, free 181540056, used 58583848, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 240123904, free 181540056, used 58583848, increment 0
+Sequential: max memory 477626368, total allocated 240123904, free 181540056, used 58583848, increment 0
+Initial loss: 9.223552703448318
+Time since start: 17.965
+500: time = 5.296000 loss = 8.561915
+Resulting gain: 0.6616376465232481
+Projecting...
+Writing file C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_result\Salix\Salix_koreensis_Andersson.asc
+Time since start: 26.674
+Writing C:\Users\Ko\Documents\복구\$ROOT00046\연구데이터-AI분석활용_경진대회\데이터정리\MaxEnt_result\Salix\plots\Salix_koreensis_Andersson.png
+Time since start: 29.515
+Salix_koreensis_Andersson response curves
+Response curve: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 43933016, used 151626408, increment 93042560
+Salix_koreensis_Andersson AGCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 195559424, free 43916176, used 151643248, increment 16840
+linearPredictor: max memory 477626368, total allocated 195559424, free 43916176, used 151643248, increment 0
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 43916176, used 151643248, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 43916176, used 151643248, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.142000 loss = 9.194214
+Resulting gain: 0.029339133420434038
+Salix_koreensis_Andersson response curves
+Response curve: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 38419720, used 157139704, increment 5496456
+Salix_koreensis_Andersson DMCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 195559424, free 38409008, used 157150416, increment 10712
+linearPredictor: max memory 477626368, total allocated 195559424, free 38409008, used 157150416, increment 0
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 38409008, used 157150416, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 38409008, used 157150416, increment 0
+Initial loss: 9.223552703448318
+Time since start: 30.597
+60: time = 0.096000 loss = 9.211605
+Resulting gain: 0.011947466737465717
+Salix_koreensis_Andersson response curves
+Response curve: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 34617160, used 160942264, increment 3791848
+Salix_koreensis_Andersson Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 195559424, free 34600048, used 160959376, increment 17112
+linearPredictor: max memory 477626368, total allocated 195559424, free 34600048, used 160959376, increment 0
+Deactivating (Drainage_degree=5.0)
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 34600048, used 160959376, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 34600048, used 160959376, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.128000 loss = 9.217596
+Resulting gain: 0.0059569129602472515
+Salix_koreensis_Andersson response curves
+Response curve: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 29213776, used 166345648, increment 5386272
+Salix_koreensis_Andersson FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 195559424, free 29196384, used 166363040, increment 17392
+linearPredictor: max memory 477626368, total allocated 195559424, free 29196384, used 166363040, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 29196384, used 166363040, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 29196384, used 166363040, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.095000 loss = 9.189049
+Resulting gain: 0.034503568738035284
+Salix_koreensis_Andersson response curves
+Response curve: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 195559424, free 25231568, used 170327856, increment 3964816
+Salix_koreensis_Andersson LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 195559424, free 23312048, used 172247376, increment 1919520
+linearPredictor: max memory 477626368, total allocated 195559424, free 23312048, used 172247376, increment 0
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+FeaturedSpace: max memory 477626368, total allocated 195559424, free 23312048, used 172247376, increment 0
+Sequential: max memory 477626368, total allocated 195559424, free 23312048, used 172247376, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.157000 loss = 9.207501
+Resulting gain: 0.01605220318164058
+Salix_koreensis_Andersson response curves
+Response curve: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 208666624, free 151089696, used 57576928, increment -114670448
+Salix_koreensis_Andersson corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 208666624, free 151089696, used 57576928, increment 0
+linearPredictor: max memory 477626368, total allocated 208666624, free 151070376, used 57596248, increment 19320
+Deactivating (corrosion_degree=4.0)
+FeaturedSpace: max memory 477626368, total allocated 208666624, free 151070376, used 57596248, increment 0
+Sequential: max memory 477626368, total allocated 208666624, free 151070376, used 57596248, increment 0
+Initial loss: 9.223552703448318
+60: time = 0.064000 loss = 9.200755
+Resulting gain: 0.022798112228489487
+Salix_koreensis_Andersson response curves
+Response curve: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 208666624, free 147049192, used 61617432, increment 4021184
+Salix_koreensis_Andersson dem: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 208666624, free 141567120, used 67099504, increment 5482072
+linearPredictor: max memory 477626368, total allocated 208666624, free 141567120, used 67099504, increment 0
+FeaturedSpace: max memory 477626368, total allocated 208666624, free 141567120, used 67099504, increment 0
+Sequential: max memory 477626368, total allocated 208666624, free 141567120, used 67099504, increment 0
+Initial loss: 9.223552703448318
+Time since start: 32.729
+240: time = 1.384000 loss = 9.138921
+Resulting gain: 0.08463128869481196
+Salix_koreensis_Andersson response curves
+Response curve: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 189792256, free 103325928, used 86466328, increment 19366824
+Salix_koreensis_Andersson landform: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 189792256, free 103302936, used 86489320, increment 22992
+linearPredictor: max memory 477626368, total allocated 189792256, free 103302936, used 86489320, increment 0
+Deactivating (landform=6.0)
+FeaturedSpace: max memory 477626368, total allocated 189792256, free 103302936, used 86489320, increment 0
+Sequential: max memory 477626368, total allocated 189792256, free 103302936, used 86489320, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.111000 loss = 9.177128
+Resulting gain: 0.04642443546154951
+Salix_koreensis_Andersson response curves
+Response curve: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 189792256, free 98119352, used 91672904, increment 5183584
+Salix_koreensis_Andersson lithoidx: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 189792256, free 98108032, used 91684224, increment 11320
+linearPredictor: max memory 477626368, total allocated 189792256, free 98108032, used 91684224, increment 0
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 189792256, free 98108032, used 91684224, increment 0
+Sequential: max memory 477626368, total allocated 189792256, free 98108032, used 91684224, increment 0
+Initial loss: 9.223552703448318
+200: time = 0.396000 loss = 9.091210
+Resulting gain: 0.13234291232357975
+Salix_koreensis_Andersson response curves
+Response curve: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 189792256, free 91799280, used 97992976, increment 6308752
+Salix_koreensis_Andersson prec_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 189792256, free 89452912, used 100339344, increment 2346368
+linearPredictor: max memory 477626368, total allocated 189792256, free 89452912, used 100339344, increment 0
+FeaturedSpace: max memory 477626368, total allocated 189792256, free 89452912, used 100339344, increment 0
+Sequential: max memory 477626368, total allocated 189792256, free 89452912, used 100339344, increment 0
+Initial loss: 9.223552703448318
+Time since start: 33.794
+180: time = 0.350000 loss = 9.198629
+Resulting gain: 0.02492389279432672
+Salix_koreensis_Andersson response curves
+Response curve: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 189792256, free 73065824, used 116726432, increment 16387088
+Salix_koreensis_Andersson slope: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 189792256, free 73043216, used 116749040, increment 22608
+linearPredictor: max memory 477626368, total allocated 189792256, free 73043216, used 116749040, increment 0
+FeaturedSpace: max memory 477626368, total allocated 189792256, free 73043216, used 116749040, increment 0
+Sequential: max memory 477626368, total allocated 189792256, free 73043216, used 116749040, increment 0
+Initial loss: 9.223552703448318
+Time since start: 35.382
+260: time = 1.506000 loss = 9.071503
+Resulting gain: 0.15204932082370703
+Salix_koreensis_Andersson response curves
+Response curve: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 169869312, free 110792672, used 59076640, increment -57672400
+Salix_koreensis_Andersson soil_depth: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 169869312, free 110784056, used 59085256, increment 8616
+linearPredictor: max memory 477626368, total allocated 169869312, free 110784056, used 59085256, increment 0
+FeaturedSpace: max memory 477626368, total allocated 169869312, free 110784056, used 59085256, increment 0
+Sequential: max memory 477626368, total allocated 169869312, free 110784056, used 59085256, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.094000 loss = 9.214782
+Resulting gain: 0.00877078741628523
+Salix_koreensis_Andersson response curves
+Response curve: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 169869312, free 105580200, used 64289112, increment 5203856
+Salix_koreensis_Andersson soil_structure: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 169869312, free 105562952, used 64306360, increment 17248
+linearPredictor: max memory 477626368, total allocated 169869312, free 105562952, used 64306360, increment 0
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+FeaturedSpace: max memory 477626368, total allocated 169869312, free 105562952, used 64306360, increment 0
+Sequential: max memory 477626368, total allocated 169869312, free 105562952, used 64306360, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.142000 loss = 9.183463
+Resulting gain: 0.04008993408709571
+Salix_koreensis_Andersson response curves
+Response curve: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 169869312, free 101021728, used 68847584, increment 4541224
+Salix_koreensis_Andersson soil_type: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 169869312, free 101004112, used 68865200, increment 17616
+linearPredictor: max memory 477626368, total allocated 169869312, free 101004112, used 68865200, increment 0
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 169869312, free 101004112, used 68865200, increment 0
+Sequential: max memory 477626368, total allocated 169869312, free 101004112, used 68865200, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.109000 loss = 9.170490
+Resulting gain: 0.05306225894972805
+Salix_koreensis_Andersson response curves
+Response curve: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 169869312, free 95713440, used 74155872, increment 5290672
+Salix_koreensis_Andersson temper_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 169869312, free 95704792, used 74164520, increment 8648
+linearPredictor: max memory 477626368, total allocated 169869312, free 95704792, used 74164520, increment 0
+FeaturedSpace: max memory 477626368, total allocated 169869312, free 95704792, used 74164520, increment 0
+Sequential: max memory 477626368, total allocated 169869312, free 95704792, used 74164520, increment 0
+Initial loss: 9.223552703448318
+Time since start: 36.425
+180: time = 0.468000 loss = 9.116806
+Resulting gain: 0.10674717911268417
+Salix_koreensis_Andersson response curves
+Time since start: 37.494
+Jackknife: leave AGCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 167247872, free 42692152, used 124555720, increment 50391200
+Salix_koreensis_Andersson AGCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 167247872, free 37234640, used 130013232, increment 5457512
+linearPredictor: max memory 477626368, total allocated 167247872, free 37234640, used 130013232, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 167247872, free 37234640, used 130013232, increment 0
+Sequential: max memory 477626368, total allocated 167247872, free 37234640, used 130013232, increment 0
+Initial loss: 9.223552703448318
+Time since start: 42.943
+500: time = 5.364000 loss = 8.576374
+Jackknife: leave DMCLS out
+Making features
+makeFeatures: max memory 477626368, total allocated 158334976, free 47667408, used 110667568, increment -19345664
+Salix_koreensis_Andersson DMCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 158334976, free 42404824, used 115930152, increment 5262584
+linearPredictor: max memory 477626368, total allocated 158334976, free 42404824, used 115930152, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 158334976, free 42404824, used 115930152, increment 0
+Sequential: max memory 477626368, total allocated 158334976, free 42404824, used 115930152, increment 0
+Initial loss: 9.223552703448318
+Time since start: 48.454
+500: time = 5.408000 loss = 8.561496
+Jackknife: leave Drainage_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 136839168, free 30437328, used 106401840, increment -9528312
+Salix_koreensis_Andersson Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 136839168, free 24710624, used 112128544, increment 5726704
+linearPredictor: max memory 477626368, total allocated 136839168, free 24710624, used 112128544, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 136839168, free 24710624, used 112128544, increment 0
+Sequential: max memory 477626368, total allocated 136839168, free 24710624, used 112128544, increment 0
+Initial loss: 9.223552703448318
+Time since start: 54.006
+500: time = 5.467000 loss = 8.560770
+Jackknife: leave FIFTH_FRTP out
+Making features
+makeFeatures: max memory 477626368, total allocated 142082048, free 43015528, used 99066520, increment -13062024
+Salix_koreensis_Andersson FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 142082048, free 36950552, used 105131496, increment 6064976
+linearPredictor: max memory 477626368, total allocated 142082048, free 36950552, used 105131496, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 142082048, free 36950552, used 105131496, increment 0
+Sequential: max memory 477626368, total allocated 142082048, free 36950552, used 105131496, increment 0
+Initial loss: 9.223552703448318
+Time since start: 59.548
+500: time = 5.464000 loss = 8.592977
+Jackknife: leave LV2_CODE out
+Making features
+makeFeatures: max memory 477626368, total allocated 124780544, free 65054896, used 59725648, increment -45405848
+Salix_koreensis_Andersson LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 124780544, free 59219688, used 65560856, increment 5835208
+linearPredictor: max memory 477626368, total allocated 124780544, free 59219688, used 65560856, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 124780544, free 59219688, used 65560856, increment 0
+Sequential: max memory 477626368, total allocated 124780544, free 59219688, used 65560856, increment 0
+Initial loss: 9.223552703448318
+Time since start: 65.055
+500: time = 5.412000 loss = 8.581454
+Jackknife: leave corrosion_degree out
+Making features
+makeFeatures: max memory 477626368, total allocated 133169152, free 92375328, used 40793824, increment -24767032
+Salix_koreensis_Andersson corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 133169152, free 86200896, used 46968256, increment 6174432
+linearPredictor: max memory 477626368, total allocated 133169152, free 86200896, used 46968256, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 133169152, free 86200896, used 46968256, increment 0
+Sequential: max memory 477626368, total allocated 133169152, free 86200896, used 46968256, increment 0
+Initial loss: 9.223552703448318
+Time since start: 70.707
+500: time = 5.542000 loss = 8.573754
+Jackknife: leave dem out
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 67167608, used 62331528, increment 15363272
+Salix_koreensis_Andersson dem: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 129499136, free 64175976, used 65323160, increment 2991632
+linearPredictor: max memory 477626368, total allocated 129499136, free 64175976, used 65323160, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 64175976, used 65323160, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 64175976, used 65323160, increment 0
+Initial loss: 9.223552703448318
+Time since start: 74.381
+500: time = 3.610000 loss = 8.583612
+Jackknife: leave landform out
+Making features
+makeFeatures: max memory 477626368, total allocated 117964800, free 32836856, used 85127944, increment 19804784
+Salix_koreensis_Andersson landform: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 117964800, free 28101992, used 89862808, increment 4734864
+linearPredictor: max memory 477626368, total allocated 117964800, free 28101992, used 89862808, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 117964800, free 28101992, used 89862808, increment 0
+Sequential: max memory 477626368, total allocated 117964800, free 28101992, used 89862808, increment 0
+Initial loss: 9.223552703448318
+Time since start: 79.984
+500: time = 5.507000 loss = 8.573780
+Jackknife: leave lithoidx out
+Making features
+makeFeatures: max memory 477626368, total allocated 126353408, free 30580896, used 95772512, increment 5909704
+Salix_koreensis_Andersson lithoidx: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126353408, free 25065768, used 101287640, increment 5515128
+linearPredictor: max memory 477626368, total allocated 126353408, free 25065768, used 101287640, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 126353408, free 25065768, used 101287640, increment 0
+Sequential: max memory 477626368, total allocated 126353408, free 25065768, used 101287640, increment 0
+Initial loss: 9.223552703448318
+Time since start: 85.619
+500: time = 5.557000 loss = 8.654581
+Jackknife: leave prec_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 123731968, free 73394984, used 50336984, increment -50950656
+Salix_koreensis_Andersson prec_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 123731968, free 69552792, used 54179176, increment 3842192
+linearPredictor: max memory 477626368, total allocated 123731968, free 69552792, used 54179176, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 123731968, free 69552792, used 54179176, increment 0
+Sequential: max memory 477626368, total allocated 123731968, free 69552792, used 54179176, increment 0
+Initial loss: 9.223552703448318
+Time since start: 91.158
+500: time = 5.454000 loss = 8.640179
+Jackknife: leave slope out
+Making features
+makeFeatures: max memory 477626368, total allocated 133169152, free 39401544, used 93767608, increment 39588432
+Salix_koreensis_Andersson slope: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 133169152, free 34903224, used 98265928, increment 4498320
+linearPredictor: max memory 477626368, total allocated 133169152, free 34903224, used 98265928, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 133169152, free 34903224, used 98265928, increment 0
+Sequential: max memory 477626368, total allocated 133169152, free 34903224, used 98265928, increment 0
+Initial loss: 9.223552703448318
+Time since start: 94.774
+500: time = 3.537000 loss = 8.712478
+Jackknife: leave soil_depth out
+Making features
+makeFeatures: max memory 477626368, total allocated 112721920, free 39306536, used 73415384, increment -24850544
+Salix_koreensis_Andersson soil_depth: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 112721920, free 34635264, used 78086656, increment 4671272
+linearPredictor: max memory 477626368, total allocated 112721920, free 34635264, used 78086656, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 112721920, free 34635264, used 78086656, increment 0
+Sequential: max memory 477626368, total allocated 112721920, free 34635264, used 78086656, increment 0
+Initial loss: 9.223552703448318
+Time since start: 100.389
+500: time = 5.530000 loss = 8.577718
+Jackknife: leave soil_structure out
+Making features
+makeFeatures: max memory 477626368, total allocated 120061952, free 54810736, used 65251216, increment -12835440
+Salix_koreensis_Andersson soil_structure: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 120061952, free 49623648, used 70438304, increment 5187088
+linearPredictor: max memory 477626368, total allocated 120061952, free 49623648, used 70438304, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 120061952, free 49623648, used 70438304, increment 0
+Sequential: max memory 477626368, total allocated 120061952, free 49623648, used 70438304, increment 0
+Initial loss: 9.223552703448318
+Time since start: 105.992
+500: time = 5.508000 loss = 8.567463
+Jackknife: leave soil_type out
+Making features
+makeFeatures: max memory 477626368, total allocated 127401984, free 3843184, used 123558800, increment 53120496
+Salix_koreensis_Andersson soil_type: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 122683392, free 94508864, used 28174528, increment -95384272
+linearPredictor: max memory 477626368, total allocated 122683392, free 94508864, used 28174528, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+FeaturedSpace: max memory 477626368, total allocated 122683392, free 94508864, used 28174528, increment 0
+Sequential: max memory 477626368, total allocated 122683392, free 94508864, used 28174528, increment 0
+Initial loss: 9.223552703448318
+Time since start: 111.57
+500: time = 5.451000 loss = 8.563479
+Jackknife: leave temper_aver out
+Making features
+makeFeatures: max memory 477626368, total allocated 110100480, free 81953144, used 28147336, increment -27192
+Salix_koreensis_Andersson temper_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 110100480, free 77204368, used 32896112, increment 4748776
+linearPredictor: max memory 477626368, total allocated 110100480, free 77204368, used 32896112, increment 0
+Deactivating (Drainage_degree=5.0)
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+Deactivating (corrosion_degree=4.0)
+Deactivating (landform=6.0)
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 110100480, free 77204368, used 32896112, increment 0
+Sequential: max memory 477626368, total allocated 110100480, free 77204368, used 32896112, increment 0
+Initial loss: 9.223552703448318
+Time since start: 116.999
+500: time = 5.364000 loss = 8.620226
+Jackknife: only AGCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 47012144, used 79865552, increment 46969440
+Salix_koreensis_Andersson AGCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 46998104, used 79879592, increment 14040
+linearPredictor: max memory 477626368, total allocated 126877696, free 46998104, used 79879592, increment 0
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 46998104, used 79879592, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 46998104, used 79879592, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.142000 loss = 9.194214
+Res.gain: 0.029339133420434038
+Jackknife: only DMCLS
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 46390104, used 80487592, increment 608000
+Salix_koreensis_Andersson DMCLS: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 46297096, used 80580600, increment 93008
+linearPredictor: max memory 477626368, total allocated 126877696, free 46216016, used 80661680, increment 81080
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 46216016, used 80661680, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 46216016, used 80661680, increment 0
+Initial loss: 9.223552703448318
+60: time = 0.079000 loss = 9.211605
+Res.gain: 0.011947466737465717
+Jackknife: only Drainage_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 44586576, used 82291120, increment 1629440
+Salix_koreensis_Andersson Drainage_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 44574536, used 82303160, increment 12040
+linearPredictor: max memory 477626368, total allocated 126877696, free 44574536, used 82303160, increment 0
+Deactivating (Drainage_degree=5.0)
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 44574536, used 82303160, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 44574536, used 82303160, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.127000 loss = 9.217596
+Res.gain: 0.0059569129602472515
+Jackknife: only FIFTH_FRTP
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 44065728, used 82811968, increment 508808
+Salix_koreensis_Andersson FIFTH_FRTP: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 44053800, used 82823896, increment 11928
+linearPredictor: max memory 477626368, total allocated 126877696, free 44053800, used 82823896, increment 0
+Deactivating (FIFTH_FRTP=3.0)
+Deactivating (FIFTH_FRTP=8.0)
+Deactivating (FIFTH_FRTP=12.0)
+Deactivating (FIFTH_FRTP=18.0)
+Deactivating (FIFTH_FRTP=19.0)
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 44053800, used 82823896, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 44053800, used 82823896, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.111000 loss = 9.189049
+Res.gain: 0.034503568738035284
+Jackknife: only LV2_CODE
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 43507240, used 83370456, increment 546560
+Salix_koreensis_Andersson LV2_CODE: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 43488232, used 83389464, increment 19008
+linearPredictor: max memory 477626368, total allocated 126877696, free 43488232, used 83389464, increment 0
+Deactivating (LV2_CODE=130.0)
+Deactivating (LV2_CODE=140.0)
+Deactivating (LV2_CODE=160.0)
+Deactivating (LV2_CODE=230.0)
+Deactivating (LV2_CODE=250.0)
+Deactivating (LV2_CODE=420.0)
+Deactivating (LV2_CODE=610.0)
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 43488232, used 83389464, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 43488232, used 83389464, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.143000 loss = 9.207501
+Res.gain: 0.01605220318164058
+Jackknife: only corrosion_degree
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 42818168, used 84059528, increment 670064
+Salix_koreensis_Andersson corrosion_degree: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 42808368, used 84069328, increment 9800
+linearPredictor: max memory 477626368, total allocated 126877696, free 42808368, used 84069328, increment 0
+Deactivating (corrosion_degree=4.0)
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 42808368, used 84069328, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 42808368, used 84069328, increment 0
+Initial loss: 9.223552703448318
+60: time = 0.079000 loss = 9.200755
+Res.gain: 0.022798112228489487
+Jackknife: only dem
+Making features
+makeFeatures: max memory 477626368, total allocated 126877696, free 42286960, used 84590736, increment 521408
+Salix_koreensis_Andersson dem: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 126877696, free 39524808, used 87352888, increment 2762152
+linearPredictor: max memory 477626368, total allocated 126877696, free 39524808, used 87352888, increment 0
+FeaturedSpace: max memory 477626368, total allocated 126877696, free 39524808, used 87352888, increment 0
+Sequential: max memory 477626368, total allocated 126877696, free 39524808, used 87352888, increment 0
+Initial loss: 9.223552703448318
+Time since start: 119.128
+240: time = 1.401000 loss = 9.138921
+Res.gain: 0.08463128869481196
+Jackknife: only landform
+Making features
+makeFeatures: max memory 477626368, total allocated 113770496, free 54592448, used 59178048, increment -28174840
+Salix_koreensis_Andersson landform: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 113770496, free 54582760, used 59187736, increment 9688
+linearPredictor: max memory 477626368, total allocated 113770496, free 54582760, used 59187736, increment 0
+Deactivating (landform=6.0)
+FeaturedSpace: max memory 477626368, total allocated 113770496, free 54582760, used 59187736, increment 0
+Sequential: max memory 477626368, total allocated 113770496, free 54582760, used 59187736, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.086000 loss = 9.177128
+Res.gain: 0.04642443546154951
+Jackknife: only lithoidx
+Making features
+makeFeatures: max memory 477626368, total allocated 113770496, free 54132336, used 59638160, increment 450424
+Salix_koreensis_Andersson lithoidx: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 113770496, free 54122448, used 59648048, increment 9888
+linearPredictor: max memory 477626368, total allocated 113770496, free 54122448, used 59648048, increment 0
+Deactivating (lithoidx=1.0)
+Deactivating (lithoidx=2.0)
+Deactivating (lithoidx=6.0)
+Deactivating (lithoidx=8.0)
+Deactivating (lithoidx=10.0)
+Deactivating (lithoidx=11.0)
+Deactivating (lithoidx=13.0)
+Deactivating (lithoidx=15.0)
+Deactivating (lithoidx=16.0)
+Deactivating (lithoidx=17.0)
+Deactivating (lithoidx=18.0)
+Deactivating (lithoidx=20.0)
+Deactivating (lithoidx=21.0)
+Deactivating (lithoidx=22.0)
+Deactivating (lithoidx=23.0)
+Deactivating (lithoidx=24.0)
+Deactivating (lithoidx=26.0)
+Deactivating (lithoidx=27.0)
+Deactivating (lithoidx=28.0)
+Deactivating (lithoidx=30.0)
+Deactivating (lithoidx=32.0)
+Deactivating (lithoidx=34.0)
+Deactivating (lithoidx=35.0)
+Deactivating (lithoidx=37.0)
+Deactivating (lithoidx=41.0)
+Deactivating (lithoidx=45.0)
+Deactivating (lithoidx=48.0)
+Deactivating (lithoidx=52.0)
+Deactivating (lithoidx=53.0)
+Deactivating (lithoidx=55.0)
+Deactivating (lithoidx=59.0)
+Deactivating (lithoidx=60.0)
+Deactivating (lithoidx=62.0)
+Deactivating (lithoidx=69.0)
+FeaturedSpace: max memory 477626368, total allocated 113770496, free 54122448, used 59648048, increment 0
+Sequential: max memory 477626368, total allocated 113770496, free 54122448, used 59648048, increment 0
+Initial loss: 9.223552703448318
+200: time = 0.379000 loss = 9.091210
+Res.gain: 0.13234291232357975
+Jackknife: only prec_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 113770496, free 51567640, used 62202856, increment 2554808
+Salix_koreensis_Andersson prec_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 113770496, free 50555032, used 63215464, increment 1012608
+linearPredictor: max memory 477626368, total allocated 113770496, free 50555032, used 63215464, increment 0
+FeaturedSpace: max memory 477626368, total allocated 113770496, free 50555032, used 63215464, increment 0
+Sequential: max memory 477626368, total allocated 113770496, free 50555032, used 63215464, increment 0
+Initial loss: 9.223552703448318
+180: time = 0.331000 loss = 9.198629
+Res.gain: 0.02492389279432672
+Jackknife: only slope
+Making features
+makeFeatures: max memory 477626368, total allocated 113770496, free 38390200, used 75380296, increment 12164832
+Salix_koreensis_Andersson slope: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 113770496, free 36928496, used 76842000, increment 1461704
+linearPredictor: max memory 477626368, total allocated 113770496, free 36847416, used 76923080, increment 81080
+FeaturedSpace: max memory 477626368, total allocated 113770496, free 36847416, used 76923080, increment 0
+Sequential: max memory 477626368, total allocated 113770496, free 36847416, used 76923080, increment 0
+Initial loss: 9.223552703448318
+Time since start: 121.494
+260: time = 1.507000 loss = 9.071503
+Res.gain: 0.15204932082370703
+Jackknife: only soil_depth
+Making features
+makeFeatures: max memory 477626368, total allocated 115343360, free 74980528, used 40362832, increment -36560248
+Salix_koreensis_Andersson soil_depth: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 115343360, free 74967784, used 40375576, increment 12744
+linearPredictor: max memory 477626368, total allocated 115343360, free 74967784, used 40375576, increment 0
+FeaturedSpace: max memory 477626368, total allocated 115343360, free 74967784, used 40375576, increment 0
+Sequential: max memory 477626368, total allocated 115343360, free 74967784, used 40375576, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.086000 loss = 9.214782
+Res.gain: 0.00877078741628523
+Jackknife: only soil_structure
+Making features
+makeFeatures: max memory 477626368, total allocated 115343360, free 74560768, used 40782592, increment 407016
+Salix_koreensis_Andersson soil_structure: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 115343360, free 74551152, used 40792208, increment 9616
+linearPredictor: max memory 477626368, total allocated 115343360, free 74551152, used 40792208, increment 0
+Deactivating (soil_structure=6.0)
+Deactivating (soil_structure=8.0)
+Deactivating (soil_structure=9.0)
+Deactivating (soil_structure=11.0)
+Deactivating (soil_structure=12.0)
+Deactivating (soil_structure=13.0)
+FeaturedSpace: max memory 477626368, total allocated 115343360, free 74551152, used 40792208, increment 0
+Sequential: max memory 477626368, total allocated 115343360, free 74551152, used 40792208, increment 0
+Initial loss: 9.223552703448318
+100: time = 0.110000 loss = 9.183463
+Res.gain: 0.04008993408709571
+Jackknife: only soil_type
+Making features
+makeFeatures: max memory 477626368, total allocated 115343360, free 73812640, used 41530720, increment 738512
+Salix_koreensis_Andersson soil_type: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 115343360, free 73799688, used 41543672, increment 12952
+linearPredictor: max memory 477626368, total allocated 115343360, free 73718608, used 41624752, increment 81080
+Deactivating (soil_type=5.0)
+FeaturedSpace: max memory 477626368, total allocated 115343360, free 73718608, used 41624752, increment 0
+Sequential: max memory 477626368, total allocated 115343360, free 73718608, used 41624752, increment 0
+Initial loss: 9.223552703448318
+80: time = 0.112000 loss = 9.170490
+Res.gain: 0.05306225894972805
+Jackknife: only temper_aver
+Making features
+makeFeatures: max memory 477626368, total allocated 115343360, free 72162800, used 43180560, increment 1555808
+Salix_koreensis_Andersson temper_aver: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+133 samples
+Density: max memory 477626368, total allocated 115343360, free 71105128, used 44238232, increment 1057672
+linearPredictor: max memory 477626368, total allocated 115343360, free 71105128, used 44238232, increment 0
+FeaturedSpace: max memory 477626368, total allocated 115343360, free 71105128, used 44238232, increment 0
+Sequential: max memory 477626368, total allocated 115343360, free 71105128, used 44238232, increment 0
+Initial loss: 9.223552703448318
+180: time = 0.472000 loss = 9.116806
+Res.gain: 0.10674717911268417
+Ending
